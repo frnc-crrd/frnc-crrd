@@ -1,44 +1,40 @@
 # Francisco Carriedo
-**Software Engineer | Quantitative Analyst | Cloud Architect**
+**Software Engineer | Actuary | Technologist**
 
-I engineer financial-grade software solutions where mathematical precision meets distributed system scalability. With a foundation in Actuarial Science, I approach software development with a risk-aware, data-first mindset, focusing on correctness, auditability, and performance.
+I exist at the intersection of **quantitative rigor** and **hacker curiosity**. I don't just write code; I architect resilient systems, harden infrastructure, and accelerate Time-to-Market through rapid, high-fidelity prototyping.
 
-## Engineering Standards
+## The Philosophy
 
-I do not ship code that "just works." I ship systems that are maintainable, testable, and secure by design.
+My workflow is defined by a relentless pursuit of efficiency and security.
 
-* **Architecture:** Event-Driven and Microservices (AWS/Azure) over monolithic structures.
-* **Reliability:** Strict TDD cycles with Pytest; if it is not tested, it does not exist.
-* **Operations:** Infrastructure as Code (Terraform/CloudFormation) and immutable deployments.
-* **Data:** Zero-latency architectures using in-memory columnar processing (DuckDB/Arrow).
+* **The Builder's DNA:** My daily driver is **Fedora**, and I manage my own hardened **Ubuntu LTS** servers. I believe in understanding the stack from the kernel up to the cloud.
+* **Risk-Aware Engineering:** Leveraging my Actuarial background, I treat software architecture as a risk management problem. Every dependency is a liability; every test is an insurance policy.
+* **Augmented Velocity:** I specialize in integrating **LLMs** into the SDLC, reducing boilerplate to focus on complex logic. I use technology to compress delivery cycles without sacrificing quality.
+* **The Standards:** TDD is non-negotiable. If it isn't automated, it's broken. I build Event-Driven Microservices designed for infinite scale and zero-trust security.
 
-## Technical Arsenal
+## The Lab & The Stack
 
-| Domain | Technologies |
+I am constantly experimenting with network configurations, self-hosted services, and new paradigms.
+
+| Domain | Current Focus |
 | :--- | :--- |
-| **Core** | Python, C# (.NET), TypeScript, SQL, Bash |
-| **Compute** | AWS Lambda, Azure Functions, Docker, Kubernetes |
-| **Data** | PostgreSQL, Redis, DynamoDB, DuckDB, Ibis Framework |
-| **DevOps** | GitHub Actions, Azure DevOps, Terraform, SonarQube |
+| **Languages** | Python (Advanced), C# (.NET), TypeScript, SQL, Bash |
+| **Infrastructure** | Docker, Kubernetes, Terraform, Linux Hardening (Fail2Ban/Auditd) |
+| **Architecture** | Event-Driven (AWS SQS/SNS), Serverless, Microservices |
+| **Data** | PostgreSQL, DuckDB (In-Memory Analytics), Redis |
+| **Tools** | GitHub Actions (CI/CD), Neovim/VS Code, Local LLMs |
 
-## Signature Architecture
+## Signature Engineering
 
-### [PrivaSee BI Ecosystem]
-*A self-hosted, high-performance analytics platform designed to replace legacy reporting tools.*
+**[PrivaSee BI Ecosystem]**
+*A self-hosted, zero-latency analytics engine.*
+* **Innovation:** Decoupled OLTP/OLAP using DuckDB to bypass enterprise data warehousing costs.
+* **Performance:** Sub-second rendering of millions of records via Python-native architecture.
 
-* **The Challenge:** Process millions of records with sub-second latency without incurring Enterprise Data Warehouse costs.
-* **The Architecture:**
-    * **Decoupled Storage:** Separated OLTP (PostgreSQL) from OLAP workloads to ensure data integrity.
-    * **In-Memory Compute:** Utilized DuckDB and Ibis for vectorised query execution.
-    * **Performance:** Achieved desktop-grade UI performance in-browser using Vizro and Plotly Dash.
+**[Serverless OCR Orchestrator]**
+*Event-driven document ingestion pipeline.*
+* **Scale:** Asynchronous processing of burst workloads using AWS Lambda.
+* **Security:** Full IAM governance and PII redaction workflows.
 
-### [Serverless OCR Orchestrator]
-*Event-driven document ingestion pipeline for enterprise scale.*
-
-* **The Logic:** Asynchronous processing via AWS SQS/SNS to handle burst workloads without server provisioning.
-* **The Security:** Implemented rigorous IAM governance and PII redaction workflows.
-
-## Contact
-
-* [LinkedIn](https://www.linkedin.com/in/carriedo)
-* [Email](mailto:fco.carriedo@outlook.com)
+---
+[LinkedIn](https://www.linkedin.com/in/carriedo) | [Email](mailto:fco.carriedo@outlook.com)
