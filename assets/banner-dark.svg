@@ -1,16 +1,16 @@
 <svg width="1600" height="240" viewBox="0 0 1600 240" xmlns="http://www.w3.org/2000/svg" preserveAspectRatio="xMidYMid meet" role="img" aria-label="Francisco José Carriedo Hernández — Data Analyst and BI, Licensed Actuary">
   <rect width="1600" height="240" fill="#0D1117"/>
-  <rect x="0" y="0" width="8" height="240" fill="#F5A623"/>
+  <rect x="0" y="0" width="8" height="240" fill="#7209B7"/>
   <g text-anchor="middle" font-family="'Segoe UI', -apple-system, 'Helvetica Neue', Arial, sans-serif">
-    <text x="800" y="98" font-size="48" font-weight="600" letter-spacing="0.3" fill="#7FB3D1">Francisco José Carriedo Hernández</text>
-    <text x="800" y="142" font-size="27" fill="#9DA7B1">Data Analyst &amp; BI · Licensed Actuary (Cédula 15606468)</text>
+    <text x="800" y="98" font-size="48" font-weight="600" letter-spacing="0.3" fill="#C6A8FF">Francisco José Carriedo Hernández</text>
+    <text x="800" y="142" font-size="27" fill="#B0A8C8">Data Analyst &amp; BI · Licensed Actuary (Cédula 15606468)</text>
   </g>
   <g>
-    <line x1="545" y1="174" x2="730" y2="174" stroke="#F5A623" stroke-width="2.5" opacity="0.45"/>
-    <line x1="870" y1="174" x2="1055" y2="174" stroke="#F5A623" stroke-width="2.5" opacity="0.45"/>
-    <circle cx="763" cy="174" r="6" fill="#F5A623" opacity="0.6"/>
-    <circle cx="800" cy="174" r="7" fill="#F5A623"/>
-    <circle cx="837" cy="174" r="6" fill="#F5A623" opacity="0.6"/>
+    <line x1="545" y1="174" x2="730" y2="174" stroke="#7209B7" stroke-width="2.5" opacity="0.45"/>
+    <line x1="870" y1="174" x2="1055" y2="174" stroke="#7209B7" stroke-width="2.5" opacity="0.45"/>
+    <circle cx="763" cy="174" r="6" fill="#7209B7" opacity="0.6"/>
+    <circle cx="800" cy="174" r="7" fill="#7209B7"/>
+    <circle cx="837" cy="174" r="6" fill="#7209B7" opacity="0.6"/>
   </g>
-  <text x="800" y="212" text-anchor="middle" font-family="'Segoe UI', -apple-system, 'Helvetica Neue', Arial, sans-serif" font-size="21" fill="#8B95A1">Python · SQL · Power BI — data pipelines, business intelligence &amp; applied AI</text>
+  <text x="800" y="212" text-anchor="middle" font-family="'Segoe UI', -apple-system, 'Helvetica Neue', Arial, sans-serif" font-size="21" fill="#9A92B2">Python · SQL · Power BI — data pipelines, business intelligence &amp; applied AI</text>
 </svg>
