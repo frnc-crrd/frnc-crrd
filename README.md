@@ -57,9 +57,9 @@ flowchart LR
     MOD --> PBI
     MOD --> XLS
     PY -.-> INFRA
-    classDef box fill:#0F3A5F,stroke:#F5A623,stroke-width:1px,color:#ffffff,rx:12,ry:12;
+    classDef box fill:#3A0CA3,stroke:#B57BED,stroke-width:1px,color:#ffffff,rx:12,ry:12;
     class ERP,DB,DOC,PIPE,QA,AI,MOD,PBI,XLS,CLOUD,SRV box;
-    classDef grp fill:#0a2740,stroke:#3a556e,color:#cddfe7;
+    classDef grp fill:#22084d,stroke:#4a2e6e,color:#cddfe7;
     class SRC,PY,OUT,INFRA grp;
 ```
 
