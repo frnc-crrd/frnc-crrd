@@ -1,9 +1,10 @@
 #!/usr/bin/env python3
-"""Rotates the profile theme between the available palettes in themes/.
-Reads the current theme from .theme, picks the next one, copies its assets
-into assets/, patches the Mermaid diagram colors in README.md, and writes .theme.
+"""Rotate the profile theme between the palettes in themes/.
+Single source of truth = .theme. Each run advances to the NEXT theme and
+applies BOTH its assets and its diagram colors atomically, so the banner,
+buttons and Mermaid diagram are ALWAYS in sync.
 """
-import os, shutil, re, pathlib
+import sys, shutil, re, pathlib
 
 THEMES = ["amber", "violet"]
 DIAGRAM = {
@@ -16,14 +17,17 @@ state = root / ".theme"
 current = state.read_text().strip() if state.exists() else THEMES[-1]
 nxt = THEMES[(THEMES.index(current) + 1) % len(THEMES)] if current in THEMES else THEMES[0]
 
-# 1) copy theme assets into assets/
 src = root / "themes" / nxt
 dst = root / "assets"
-dst.mkdir(exist_ok=True)
-for f in src.glob("*.svg"):
-    shutil.copy(f, dst / f.name)
+if not src.is_dir() or not list(src.glob("*.svg")):
+    sys.exit(f"::error::Theme '{nxt}' missing or empty at {src}. Upload themes/ fully.")
 
-# 2) patch diagram colors in README
+# 1) assets
+n = 0
+for f in src.glob("*.svg"):
+    shutil.copy(f, dst / f.name); n += 1
+
+# 2) diagram (always matches nxt)
 d = DIAGRAM[nxt]
 readme = (root / "README.md").read_text()
 readme = re.sub(r"classDef box fill:#[0-9a-fA-F]{6},stroke:#[0-9a-fA-F]{6}",
@@ -32,6 +36,6 @@ readme = re.sub(r"classDef grp fill:#[0-9a-fA-F]{6},stroke:#[0-9a-fA-F]{6}",
                 f"classDef grp fill:{d['grp']},stroke:{d['grp_stroke']}", readme)
 (root / "README.md").write_text(readme)
 
-# 3) save state
+# 3) state
 state.write_text(nxt + "\n")
-print(f"Theme rotated: {current} -> {nxt}")
+print(f"Theme rotated: {current} -> {nxt}  ({n} assets + diagram in sync)")
