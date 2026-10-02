@@ -3,15 +3,15 @@
 <div align="center">
 
 <picture>
-  <source media="(prefers-color-scheme: dark)" srcset="themes/amber/banner-dark.svg">
-  <img alt="Francisco José Carriedo Hernández — Data Analyst & BI · Licensed Actuary" src="themes/amber/banner-light.svg" width="100%">
+  <source media="(prefers-color-scheme: dark)" srcset="themes/violet/banner-dark.svg">
+  <img alt="Francisco José Carriedo Hernández — Data Analyst & BI · Licensed Actuary" src="themes/violet/banner-light.svg" width="100%">
 </picture>
 
 </div>
 
 <br>
 
-<div align="center"><picture><img src="themes/amber/label-about-en.svg" alt="About me"></picture></div>
+<div align="center"><picture><img src="themes/violet/label-about-en.svg" alt="About me"></picture></div>
 
 I'm a licensed actuary who moved into data. I build **end-to-end data solutions** — extracting and validating data, modeling it, and turning it into dashboards and reports people actually use. My background spans **banking, insurance, and consumer goods**, and my quantitative training leads me to treat every data point as something to validate against a source of truth: **reliable pipelines, not just results that look good.**
 
@@ -57,15 +57,15 @@ flowchart LR
     MOD --> PBI
     MOD --> XLS
     PY -.-> INFRA
-    classDef box fill:#0F3A5F,stroke:#F5A623,stroke-width:1px,color:#ffffff,rx:12,ry:12;
+    classDef box fill:#3A0CA3,stroke:#B57BED,stroke-width:1px,color:#ffffff,rx:12,ry:12;
     class ERP,DB,DOC,PIPE,QA,AI,MOD,PBI,XLS,CLOUD,SRV box;
-    classDef grp fill:#0a2740,stroke:#3a556e,color:#cddfe7;
+    classDef grp fill:#22084d,stroke:#4a2e6e,color:#cddfe7;
     class SRC,PY,OUT,INFRA grp;
 ```
 
 <br>
 
-<div align="center"><picture><img src="themes/amber/label-stack-en.svg" alt="Tech stack"></picture></div>
+<div align="center"><picture><img src="themes/violet/label-stack-en.svg" alt="Tech stack"></picture></div>
 
 <div align="center">
 
@@ -85,7 +85,7 @@ flowchart LR
 
 <br>
 
-<div align="center"><picture><img src="themes/amber/label-projects-en.svg" alt="Featured projects"></picture></div>
+<div align="center"><picture><img src="themes/violet/label-projects-en.svg" alt="Featured projects"></picture></div>
 
 **cxc-report-engine**
 Python engine that audits **accounts-receivable (AR)** data from the Microsip ERP (Firebird) and generates collections reports in Excel, segmented by collector. Built with engineering rigor: modular architecture, **286 `pytest` tests, `mypy --strict`, and `pydantic` schemas** for validated data models.
@@ -108,7 +108,7 @@ Self-hosted analytics platform I'm building to explore a privacy-first BI stack.
 
 <br>
 
-<div align="center"><picture><img src="themes/amber/label-certs-en.svg" alt="Certifications"></picture></div>
+<div align="center"><picture><img src="themes/violet/label-certs-en.svg" alt="Certifications"></picture></div>
 
 - Oracle Cloud Infrastructure 2024 — **AI Foundations Associate** (2024)
 - Microsoft Certified — **Azure Fundamentals (AZ-900)** (2024)
@@ -119,16 +119,16 @@ Self-hosted analytics platform I'm building to explore a privacy-first BI stack.
 
 <div align="center">
 
-<picture><img src="themes/amber/label-contact-en.svg" alt="Get in touch"></picture>
+<picture><img src="themes/violet/label-contact-en.svg" alt="Get in touch"></picture>
 
 <br><br>
 
-<a href="https://linkedin.com/in/carriedo"><img src="themes/amber/c-linkedin.svg" alt="LinkedIn"></a>&nbsp;
-<a href="mailto:fco.carriedo@outlook.com"><img src="themes/amber/c-email.svg" alt="Email"></a>&nbsp;
-<a href="https://github.com/frnc-crrd"><img src="themes/amber/c-github.svg" alt="GitHub"></a>
+<a href="https://linkedin.com/in/carriedo"><img src="themes/violet/c-linkedin.svg" alt="LinkedIn"></a>&nbsp;
+<a href="mailto:fco.carriedo@outlook.com"><img src="themes/violet/c-email.svg" alt="Email"></a>&nbsp;
+<a href="https://github.com/frnc-crrd"><img src="themes/violet/c-github.svg" alt="GitHub"></a>
 
 <br><br>
 
-<a href="#top"><img src="themes/amber/btn-back-to-top.svg" alt="Back to top"></a>
+<a href="#top"><img src="themes/violet/btn-back-to-top.svg" alt="Back to top"></a>
 
 </div>
